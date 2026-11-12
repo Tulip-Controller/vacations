@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0B7A75">
+<meta name="robots" content="noindex">
+<title>Family Vacations</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Zen+Kaku+Gothic+New:wght@400;500&display=swap">
+<style>
+:root{--bg:#F3F7F6;--surface:#fff;--ink:#132A2E;--muted:#5A6F72;--line:#D6E2E0;--accent:#0B7A75;--coral:#C8434F}
+@media (prefers-color-scheme:dark){:root{--bg:#0E1A1C;--surface:#152426;--ink:#E4EEEC;--muted:#93A9AB;--line:#24393B;--accent:#4FC1B8;--coral:#F07C86;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "Zen Kaku Gothic New",system-ui,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:max(28px,env(safe-area-inset-top)) max(16px,env(safe-area-inset-right)) 48px max(16px,env(safe-area-inset-left))}
+h1{font:700 34px "Outfit",system-ui,sans-serif;margin:0}
+p.sub{color:var(--muted);margin:4px 0 24px}
+a.trip{display:block;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px;text-decoration:none;color:inherit}
+a.trip:hover,a.trip:focus-visible{border-color:var(--accent);outline:none}
+.trip h2{font:600 22px "Outfit",system-ui,sans-serif;margin:0}
+.trip .when{color:var(--coral);font-weight:500;font-size:14px;letter-spacing:.04em;text-transform:uppercase}
+.trip p{margin:6px 0 0;color:var(--muted)}
+.list{display:grid;gap:12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Family Vacations</h1>
+  <p class="sub">Trip guides with places, addresses and map links.</p>
+  <div class="list">
+    <a class="trip" href="okinawa-2026/">
+      <span class="when">Okinawa · 2026</span>
+      <h2>Okinawa &amp; Ishigaki</h2>
+      <p>Ishigaki (ANA InterContinental), then Naha and Chatan. Restaurants, kids' activities, beaches, hikes, shopping and WWII history.</p>
+    </a>
+  </div>
+</div>
+</body>
+</html>
